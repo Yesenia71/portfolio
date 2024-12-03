@@ -32,7 +32,6 @@ html {
     -webkit-font-smoothing: antialiased;
 
 }
-
 :root{
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     cursor:default;
@@ -152,7 +151,7 @@ body{
     position: relative;
     width: 40px;
     height: 40px;
-    background-image: url(src/png/luna.png);
+    background-image: url(src/png/crescent-moon\ \(1\).png);
     background-size:50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -171,7 +170,7 @@ body{
 #switchforvisualmode:checked+#labelforvisualmode { 
     transform: rotate(360deg);
     transition-duration: .5s;
-    background-image: url(src/png/luna.png);
+    background-image: url(src/png/sun.png);
     background-size:60%;
     background-repeat: no-repeat;
     background-position: center;
@@ -1069,7 +1068,7 @@ noscript{
 	}
 }
 .language-name article{
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     font-weight: 700;
     font-family: fira code;
     color: var(--color-white);
@@ -1760,7 +1759,7 @@ transition-duration: 1.6s;
 }
 
 .timeline-date {
-    background-color: #fff;
+    background-color: #000;
     color: #fff;
     font-weight: bold;
     padding: 10px 20px;
@@ -1772,7 +1771,7 @@ transition-duration: 1.6s;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
-    box-shadow: 0 2px 5px #ffe8e81a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .timeline-content h3 {
@@ -1782,7 +1781,7 @@ transition-duration: 1.6s;
 
 .timeline-content p {
     margin: 0;
-    color: #fff;
+    color: #555;
 }
   }
   
